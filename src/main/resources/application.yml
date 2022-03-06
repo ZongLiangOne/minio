@@ -1,0 +1,13 @@
+server:
+  port: 8081
+minio:
+  endpoint: http://49.234.135.202:9000
+  accessKey: zongliang
+  secretKey: minio@zongliang
+  secure: false
+  bucketName: "file"
+spring:
+  servlet:
+    multipart:
+      max-request-size: 500MB
+      max-file-size: 500MB
